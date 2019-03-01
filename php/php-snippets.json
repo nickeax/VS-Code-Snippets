@@ -1,39 +1,37 @@
-{
-	"PHP Skeleton": {
-		"prefix": "phh",
-		"body": ["php$1?>"],
-		"description": "Just add PHP enclosing tags."
-	},
-	"Basic function skeleton":{
-	"prefix":"fff",
-	"body":[
-		"function $1 ($2) {",
-			"\t$3",
+"PHP Skeleton": {
+	"prefix": "phh",
+	"body": ["php$1?>"],
+	"description": "Just add PHP enclosing tags."
+},
+"Basic function skeleton":{
+"prefix":"fff",
+"body":[
+	"function $1 ($2) {",
+		"\t$3",
+		"}"
+]
+},
+"if isset for $_GET": {
+	"prefix": "iisg",
+	"body": [
+		"if(isset($_GET['$1']) {",
+			"\t$2",
 			"}"
 	]
-	},
-	"if isset for $_GET": {
-		"prefix": "iisg",
-		"body": [
-			"if(isset($_GET['$1']) {",
-				"\t$2",
-				"}"
-		]
-	},
-	"if isset for $_POST": {
-		"prefix": "iisp",
-		"body": [
-			"if(isset($_POST['$1']) {",
-				"\t$2",
-				"}"
-		]
-	},
-	"if isset for $_SESSION": {
-		"prefix": "iiss",
-		"body": [
-			"if(isset($_SESSION['$1']) {",
-				"\t$2",
-				"}"
-		]
-	}
+},
+"if isset for $_POST": {
+	"prefix": "iisp",
+	"body": [
+		"if(isset($_POST['$1']) {",
+			"\t$2",
+			"}"
+	]
+},
+"if isset for $_SESSION": {
+	"prefix": "iiss",
+	"body": [
+		"if(isset($_SESSION['$1']) {",
+			"\t$2",
+			"}"
+	]
 }
