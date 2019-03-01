@@ -14,7 +14,7 @@
 "if isset for $_GET": {
 	"prefix": "iisg",
 	"body": [
-		"if(isset($_GET['$1']) {",
+		"if(isset(\\$_GET['$1']) {",
 			"\t$2",
 			"}"
 	]
@@ -22,7 +22,7 @@
 "if isset for $_POST": {
 	"prefix": "iisp",
 	"body": [
-		"if(isset($_POST['$1']) {",
+		"if(isset(\\$_POST['$1']) {",
 			"\t$2",
 			"}"
 	]
@@ -30,7 +30,7 @@
 "if isset for $_SESSION": {
 	"prefix": "iiss",
 	"body": [
-		"if(isset($_SESSION['$1']) {",
+		"if(isset(\\$_SESSION['$1']) {",
 			"\t$2",
 			"}"
 	]
