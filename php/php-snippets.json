@@ -21,6 +21,48 @@
 		"}"
 	]
 },
+"if isset for $_FILES": {
+
+	"prefix": "iisf",	
+	"body": [
+
+		"if(isset(\\$_FILES['$1']) {",
+
+			"\t$2",
+
+			"}"
+
+	]
+
+},
+"if isset for $_REQUEST": {
+
+	"prefix": "iisr",
+	"body": [
+
+		"if(isset(\\$_REQUEST['$1']) {",
+
+			"\t$2",
+
+			"}"
+
+	]
+
+},
+"if isset for $_ENV": {
+
+	"prefix": "iise",
+	"body": [
+
+		"if(isset(\\$_ENV['$1']) {",
+
+			"\t$2",
+
+			"}"
+
+	]
+
+},
 "if isset for $_POST": {
 	"prefix": "iisp",
 	"body": [
