@@ -1,3 +1,4 @@
+{
 "PHP Skeleton": {
 	"prefix": "phh",
 	"body": [
@@ -16,57 +17,15 @@
 "if isset for $_GET": {
 	"prefix": "iisg",
 	"body": [
-		"if(isset(\\$_GET['$1']) {",
+		"if(isset(\\$_GET['$1'])) {",
 		"\t$2",
 		"}"
 	]
 },
-"if isset for $_FILES": {
-
-	"prefix": "iisf",	
-	"body": [
-
-		"if(isset(\\$_FILES['$1']) {",
-
-			"\t$2",
-
-			"}"
-
-	]
-
-},
-"if isset for $_REQUEST": {
-
-	"prefix": "iisr",
-	"body": [
-
-		"if(isset(\\$_REQUEST['$1']) {",
-
-			"\t$2",
-
-			"}"
-
-	]
-
-},
-"if isset for $_ENV": {
-
-	"prefix": "iise",
-	"body": [
-
-		"if(isset(\\$_ENV['$1']) {",
-
-			"\t$2",
-
-			"}"
-
-	]
-
-},
 "if isset for $_POST": {
 	"prefix": "iisp",
 	"body": [
-		"if(isset(\\$_POST['$1']) {",
+		"if(isset(\\$_POST['$1'])) {",
 		"\t$2",
 		"}"
 	]
@@ -74,7 +33,7 @@
 "if isset for $_SESSION": {
 	"prefix": "iiss",
 	"body": [
-		"if(isset(\\$_SESSION['$1']) {",
+		"if(isset(\\$_SESSION['$1'])) {",
 		"\t$2",
 		"}"
 	]
@@ -82,7 +41,7 @@
 "if !isset for $_GET": {
 	"prefix": "niisg",
 	"body": [
-		"if(!isset(\\$_GET['$1']) {",
+		"if(!isset(\\$_GET['$1'])) {",
 		"\t$2",
 		"}"
 	]
@@ -90,7 +49,7 @@
 "if !isset for $_POST": {
 	"prefix": "niisp",
 	"body": [
-		"if(!isset(\\$_POST['$1']) {",
+		"if(!isset(\\$_POST['$1'])) {",
 		"\t$2",
 		"}"
 	]
@@ -98,7 +57,7 @@
 "if !isset for $_SESSION": {
 	"prefix": "niiss",
 	"body": [
-		"if(!isset(\\$_SESSION['$1']) {",
+		"if(!isset(\\$_SESSION['$1'])) {",
 		"\t$2",
 		"}"
 	]
@@ -114,4 +73,5 @@
 "New $_SESSION var": {
 	"prefix": "ss",
 	"body": "\\$_SESSION['$1']"
+}
 }
