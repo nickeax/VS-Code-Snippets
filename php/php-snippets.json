@@ -73,5 +73,15 @@
 "New $_SESSION var": {
 	"prefix": "ss",
 	"body": "\\$_SESSION['$1']"
+},
+"Try Catch": {
+	"prefix": "tr",
+	"body": [
+		"try {",
+			"\t$1",
+			"} catch ($2){",
+				"\t$3",
+			"}"
+			]
 }
 }
